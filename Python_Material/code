@@ -2,7 +2,7 @@
 
 #Python Variables
 
-# creating a variable and assigning it a value
+# creating a variable and assigning it a value                                                    
 x = 8
 y = "brothers"
 print(x)
@@ -17,4 +17,856 @@ myVar = "John"
 MYVAR = "John"
 Myvar = "John"
 MyVar = "John"
+
+Output: 
+8
+brothers
+
+
+
+
+
+
+
+#Global Variables
+
+# Here is the global variable J
+j = "awesome"
+
+def myfunc1():
+    print("Python is " + j)
+    
+myfunc1()
+
+print("j is =", j)
+
+def myfunc2():
+    j = "fantastic"
+    k = "amazing"
+    print("\nPython is " + j)
+    print("j in myFunc2 =", j)
+    print("h in myFunc2 =", k)
+
+myfunc2()
+
+# j is still awesome!
+print("\nj still =", j)
+
+# But k does does not exist
+print("k outside myFunc2 =", k)
+
+
+Output: 
+Python is awesome
+j is = awesome
+
+Python is fantastic
+j in myFunc2 = fantastic
+h in myFunc2 = amazing
+
+j still = awesome
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[86], line 26
+     23 print("\nj still =", j)
+     25 # But k does does not exist
+---> 26 print("k outside myFunc2 =", k)
+
+NameError: name 'k' is not defined
+
+
+
+
+
+
+#Python Data Types
+
+# casting to a string
+h = str('hello, world!')
+print(h)
+
+# casting to an integer
+i = int(20.5)
+print(i)
+
+# casting to a float
+j = float(20)
+print(j)
+
+# casting to a string
+k = str(144.5)
+print(k)
+
+# You can check the data type of a value by using `type()`
+print("h is ...", type(h))
+print("i is ...", type(i))
+print("j is ...", type(j))
+print("k is ...", type(k))
+
+
+Output:
+hello, world!
+20
+20.0
+144.5
+h is ... <class 'str'>
+i is ... <class 'int'>
+j is ... <class 'float'>
+k is ... <class 'str'>
+
+
+
+
+
+#To find the length of a string, use len()
+
+# use len() to find the length of a string+
+
+a = "Hello World!"
+print("The length of a is ... ", len(a))
+
+Output: 
+The length of a is ...  12
+
+
+
+
+
+
+
+# counting characters in a string...
+
+L = "lemonade shake"
+
+print("Element 1 = ", L[0])
+print("Element 2 = ",  L[1])
+print("Element 6 = ",  L[5])
+
+print("Element -1 = ", L[-1])
+print("Element -2 = ",  L[-2])
+print("Element -6 = ",  L[-6])
+
+
+Output: 
+Element 1 =  l
+Element 2 =  e
+Element 6 =  a
+Element -1 =  e
+Element -2 =  k
+Element -6 =
+
+
+
+Slicing Strings:
+
+# Ranges start at number on the left - don’t include number on the right
+s = "Hello World!"
+print(s[2:5])
+
+# Slicing a string From the start -- no numbers at the left
+s = "Hello World!"
+print(s[:5])
+
+# Slicing to the end -- no numbers to the right
+s = "Hello World!"
+print(s[2:])
+
+# Negative Indexing -- Count back 5 but DON'T include the last 2 elements
+s = "Hello World!"
+print(s[-5:-2])
+
+Output: 
+llo
+Hello
+llo World!
+orl
+
+
+
+
+
+
+
+Truthy and Falsy Values
+
+# testing truthyness / falsyness
+b = 0
+c = "sea"
+d = "0"
+if "a":
+    print("a is truthy")
+if b:
+    print("b is truthy")
+if c:
+    print("c is truthy")
+if d:
+    print("d is truthy")
+    
+Output: 
+a is truthy
+c is truthy
+d is truthy
+
+
+
+Lists
+
+# List examples
+inputList = ["hello", "class", 1, 3.5, "python", [1,2,3,4,5], {"helpfulStuff" : "documents"}, False, "end" ]
+print("inputList ...", inputList)
+
+fruitList = ["apple", "banana", "cherry"]
+print("\nfruitList ...", fruitList)
+
+Output: 
+
+inputList ... ['hello', 'class', 1, 3.5, 'python', [1, 2, 3, 4, 5], {'helpfulStuff': 'documents'}, False, 'end']
+
+fruitList ... ['apple', 'banana', 'cherry']
+
+
+
+
+
+#.len() function
+
+# input list
+lst = ["Hello", "TutorialsPoint", 78, "Hi", "Everyone"]
+
+# getting list length
+listLength = len(lst)
+
+# Printing the size of a list
+print("Size of thea List = ", listLength)
+
+Output: 
+Size of thea List =  5
+
+
+
+#Accessing List Elements Using Indexing
+
+
+# input list
+inputList =[1, 4, 8, 6, 2]
+
+# accessing the list element at index 2 using positive indexing
+print("Element at index 2:", inputList[2])
+
+# accessing the last element in list using negative indexing
+print("last element of the input list:", inputList[-1])
+
+
+Output: 
+Element at index 2: 8
+last element of the input list: 2
+
+
+
+
+#Extending and Changing to a List
+
+# Remember fruitList? What is the length?
+fruitList = ["apple", "banana", "cherry"]
+print("fruitList length = ", len(fruitList))
+
+# find the 2nd element of the fruitList
+print("\nSecond fruit ... ", fruitList[1])
+
+# replace the 2nd element in the list
+fruitList[1] = "blackcurrant"
+print("2nd fruit replaced ... ", fruitList)
+
+Output: 
+fruitList length =  3
+
+Second fruit ...  banana
+2nd fruit replaced ...  ['apple', 'blackcurrant', 'cherry']
+
+
+
+
+
+#Repetition(*) and Addition(+) operations on List Items
+
+# add 2 lists together with the addition (+) sign
+list1 = ["apple", "banana", "cherry"]
+list2 = ["kiwi", "strawberry", "grape"]
+list3 = list1 + list2
+print("New added list ...", list3)
+
+# repeat a list for a number of times (*)
+inputList = [5, 6, 7]
+# Repeating the input list 3 times using the * operator
+multipliedList = inputList * 3
+print("\nMultiplied list ... ", multipliedList)
+
+Output: 
+New added list ... ['apple', 'banana', 'cherry', 'kiwi', 'strawberry', 'grape']
+
+Multiplied list ...  [5, 6, 7, 5, 6, 7, 5, 6, 7]
+
+
+
+
+Sorting Lists in different ways
+
+# 'sort' a list descending
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort(reverse=True)
+print("Sorted cars in reverse - ", cars)
+
+# 'sort' assenting
+cars.sort()
+print("Sorted cars - default ", cars)
+
+Output: 
+Sorted cars in reverse -  ['Volvo', 'Ford', 'BMW']
+Sorted cars - default  ['BMW', 'Ford', 'Volvo']
+
+
+
+
+
+
+# Sort a list using a 'key'
+#   EG: sort by the length of the values in the list:
+cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
+
+# Define a function that returns the length of the values in the List:
+def myFunc(e):
+    return len(e)
+
+cars.sort(key=myFunc)
+print(cars)
+
+Output:
+['VW', 'BMW', 'Ford', 'Mitsubishi']
+
+
+
+
+Copying Lists
+
+# Issues with copying a list through ASSIGNMENT "="
+old_list = [1, 2, 3]
+other_list = [1, 2, 3]
+
+# copy list using '='
+new_list = old_list
+
+# add an element to new_list
+new_list.append(8)
+
+# both lists reference the same location in memory
+print('New List:', new_list)
+print('Old List:', old_list)
+
+Output:
+New List: [1, 2, 3, 8]
+Old List: [1, 2, 3, 8]
+
+
+
+# 'COPY' a list using .copy()
+first_list = ['cat', 0, 6.7]
+
+new_list = first_list.copy()
+print('Copied List:', new_list)
+
+Output:
+Copied List: ['cat', 0, 6.7]
+
+
+
+
+
+
+
+# 'COPY' a list using .deepcopy()
+# importing "copy" for copy operations
+import copy
+
+list1 = [1, 2, [3,5], 4]
+
+# using deepcopy to deep copy
+list2 = copy.deepcopy(list1)
+
+# original elements of list
+print ("The original elements before deep copying")
+for i in range(0,len(list1)):
+    print (list1[i],end=" ")
+
+# adding and element to new list
+list2[2].append(7)
+
+# Change is reflected in list2
+print ("\n\nThe new list of elements after deep copy and edit")
+for i in range(0,len( list2)):
+    print (list2[i],end=" ")
+
+# Change is NOT reflected in original list 
+print ("\n\nThe original elements after deep copy and edit")
+for i in range(0,len( list1)):
+    print (list1[i],end=" ")
+
+
+Output:
+The original elements before deep copying
+1 2 [3, 5] 4 
+
+The new list of elements after deep copy and edit
+1 2 [3, 5, 7] 4 
+
+The original elements after deep copy and edit
+1 2 [3, 5] 4 
+
+
+
+
+
+Clear and Delete lists
+
+# The .clear() method removes all items from a list.
+prime_numbers = [2, 3, 5, 7, 9, 11]
+
+# remove all list elements
+prime_numbers.clear()
+
+# Updated prime_numbers List
+print('List after clear():', prime_numbers)
+
+
+
+# eliminating list items
+superFruitList = ["apple", "Starfruit", "banana", "cherry", 
+                    "Passion fruit", "mango", "pineapple", "papaya"]
+
+# 'REMOVE' an element from the list
+superFruitList.remove("banana")
+print("superFruitList = ", superFruitList)
+
+# 'POP' off an element at index #1
+superFruitList.pop(1)
+print("\nsuperFruitList #1 popped = ", superFruitList)
+
+# 'POP' the last element with pop()
+superFruitList.pop()
+print("\nsuperFruitList last popped = ", superFruitList)
+
+
+
+
+
+
+
+
+
+Tuples
+
+# Create a Tuple by defining comma-separated values
+# Optionally place these comma-separated values between parentheses
+
+tup1 = 'physics', 'chemistry', 1997, 2000
+tup2 = (1, 2, 3, 4, 5)
+tup3 = "a", "b", "c", "d"
+print(tup1, tup2, tup3)
+
+# The empty tuple is written as two parentheses containing nothing
+tup4 = ()
+print("\nempty tuple ... ", tup4)
+
+# create a single value tuple by including a comma
+#   even though there is only one value
+tup5 = (50,)
+print("single value tuple ...", tup5)
+
+
+
+
+
+
+
+# Packing a Tuple
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+
+print("\nTuple packing ...")
+print("green=", green, "yellow=", yellow, "red=", red)
+
+
+
+
+
+
+
+# Access Values in Tuples using Bracket Notation --
+#   square brackets along with the indexes
+#   same as with slicing characters in a string
+tup6 = ('physics', 'chemistry', 1997, 2000)
+print("\ntup6[0] ... ", tup6[0])
+
+tup7 = (1, 2, 3, 4, 5, 6, 7 )
+print("\ntup7[1:5] ... ", tup7[1:5])
+
+
+
+
+
+# count() - Returns the number of times a value occurs in a tuple
+thisTuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thisTuple.count(5)
+print("element count ...", x)
+
+# index() searches for a value and returns the index of the value
+#   -- finds the first occurrence of the specified value only
+#   -- raises an exception if the value is not found
+thisTuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thisTuple.index(8)
+print("element '8' 1st index", x)
+y = thisTuple.index(9)
+print("element '9' 1st index", y)
+
+
+# Adding tuples
+tup8 = (12, 34.56)
+tup9 = ('abc', 'xyz')
+tup10 = tup8 + tup9
+print("tup10 ...", tup10)
+
+# multiplying tuples
+timesTuple = tup9 * 3
+print("timesTuple ...", timesTuple)
+
+
+
+# Using functions / methods of tuples
+
+tup11 = (1, 2, 3, 4, 5, 6, 7, 8)
+tup12 = (7, 2, 9, 12, 11, 3, 4)
+
+print("length ...", len(tup11))
+print("max ...", max(tup12))
+print("min ...", min(tup11))
+print("sum ...", sum(tup12))
+
+
+
+
+
+# Changing different types TO Tuples
+
+tup13 = (7, 1, 5, 2, 3, 9, 4, 8, 12, 11, 3, 6, 4, 10, 2, 1, 5,13)
+print("tuple sorted ... ", sorted(tup13),'\n')
+
+string1 = "this is a string"
+print("string to tuple ... ", tuple(string1),'\n')
+
+list1 = ['maths', 'che', 'phy', 'bio']
+tuple14 = tuple(list1)
+print ("list to tuple ... ", tuple14, '\n')
+
+set1 = {'a', 'b', 'c', 'd', 'e'}
+print(type(set1), " = ", set1)
+tuple15 = tuple(set1)
+print(type(tuple15), " = ", tuple15)
+
+
+
+
+# Testing for Boolean values (truthy-ness / falsy-ness) in Tuples
+
+tup6 = ('physics', 'chemistry', 1997, 2000)
+print("any ...", any(tup6))
+
+tup11 = (0, 1, 2, 3, 4, 5, 6, 7, 8)
+print("all ...", all(tup11))
+
+
+
+
+# Changing Tuples ???
+tup = ('physics', 'chemistry', 1997, 2000)
+
+# This is Not valid for tuples - can't re-assign an element in a Tuple
+tup[0] = 100
+
+# Deleting a Tuple
+print(tup)
+del tup
+print("After deleting tup : ")
+print(tup)
+
+
+
+
+
+Sets
+
+#Basic Sets actions
+thisSet = {"apple", "banana", "cherry"}
+print("thisSet ... ", thisSet)
+
+# Duplicate values will be ignored:
+anotherSet = {"apple", "banana", "cherry", "apple"}
+print("anotherSet ... ", anotherSet)
+
+# Sets can be of any primitive data types - Integer, Float, String, Boolean.
+newSet = {"abc", 34, True, 40.2, "male"}
+
+OutPut: 
+thisSet ...  {'apple', 'banana', 'cherry'}
+anotherSet ...  {'apple', 'banana', 'cherry'}
+
+
+
+Dictionaries
+
+# Duplicate values will overwrite existing values
+aDict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964,
+    "year": 2020
+}
+print("aDict ... ", aDict)
+
+# The values in dictionary items can be of any data type: 
+#   String, int, boolean, and lists
+thisDict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "electric": False,
+    "year": 1964,
+    "weight" : "3049 lbs",
+    "hors_power": 275,
+    "cu-in_capacity": 288.5,
+    "colors": ["red", "white", "blue"]
+}
+print("thisDict ...", thisDict)
+
+# Print the data type of a dictionary:
+print("\ntype of thisDict ... ", type(thisDict))
+
+Output: 
+aDict ...  {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+thisDict ... {'brand': 'Ford', 'model': 'Mustang', 'electric': False, 'year': 1964, 'weight': '3049 lbs', 'hors_power': 275, 'cu-in_capacity': 288.5, 'colors': ['red', 'white', 'blue']}
+
+type of thisDict ...  <class 'dict'>
+
+
+
+Python Logical Flow Control
+
+# Simple `if` statement
+a = 45
+b = 68
+
+if b > a:
+    print("b is greater")
+    
+   Output: 
+   b is greater
+
+
+
+
+
+
+
+
+
+#  Example 1
+print("\nExample 1\n")
+value = 5
+threshold= 4
+print("value is", value, "threshold is ",threshold)
+
+if value > threshold :
+    print(value, "is bigger than ", threshold)
+    
+#  Example 2    
+print("\nExample 2\n")
+high_threshold = 6
+print("value is", value, "new threshold is ",high_threshold)
+
+if value > high_threshold :
+    print(value , "is above ", high_threshold, "threshold")
+    
+#  Example 3
+print("\nExample 3\n")
+mid_threshold = 5
+print("value is", value, "final threshold is ",mid_threshold)
+
+if value == mid_threshold :
+    print("value, ", value, " and threshold,", mid_threshold, ", are equal")
+    
+    
+    
+Output: 
+Example 1
+
+value is 5 threshold is  4
+5 is bigger than  4
+
+Example 2
+
+value is 5 new threshold is  6
+
+Example 3
+
+value is 5 final threshold is  5
+value,  5  and threshold, 5 , are equal
+
+
+
+
+# create a integer
+x, y = 20, 50
+print(x, y)
+
+# uses the `not`` operator to reverse the result of the logical expression
+
+if not x == 50:
+    print('the value of x is different from 50')
+else:
+    print('the value of x is equal to 50')
+
+if not y == 50:
+    print('the value of y is different from 50')
+else:
+    print('the value of y is equal to 50')
+    
+    
+Output: 
+20 50
+the value of x is different from 50
+the value of y is equal to 50
+
+
+
+The if ... else Statement
+
+# if ... else ...
+
+value = 4
+threshold = 5
+print("value = ", value, "and threshold = ", threshold)
+
+if value > threshold :
+    print("value is above threshold")
+else :
+    print("value is below or equal to the threshold")
+   
+OutPut: 
+value =  4 and threshold =  5
+value is below or equal to the threshold
+
+
+
+
+
+
+
+The if ... elif ... else Statement
+
+ Calculate a letter grade score with IF ... ELSE
+score = 76
+
+if score >= 90: # grade is an A
+    letter = 'A'
+else:   # grade must be B, C, D or F
+    if score >= 80:
+        letter = 'B'
+    else:  # grade must be C, D or F
+        if score >= 70:
+            letter = 'C'
+        else:    # grade must D or F
+            if score >= 60:
+                letter = 'D'
+            else:
+                letter = 'F'
+print("The score is: - ", letter)
+
+Output:
+The score is: -  C
+
+
+
+if ... elif ... 
+
+
+
+# Calculate the letter grade score with IF ... ELIF
+score = 76
+
+if score >= 90:
+    letter = 'A'
+elif score >= 80:
+    letter = 'B'
+elif score >= 70:
+    letter = 'C'
+elif score >= 60:
+    letter = 'D'
+else:
+    letter = 'F'
+    
+print("The score is: - ", letter)
+
+Output: 
+The score is: -  C
+
+
+
+
+
+
+
+Nested if Statements
+
+
+x = 57
+
+if x > 10:
+    print("It's above 10,")
+    
+    if x < 20:
+        print("and also below 20.")
+    elif x > 20:
+        print("It's also above 20!")
+    else:
+        print("It is 20!")
+
+else:
+    print("Weird, it is less than 10.")
+    
+Output: 
+It's above 10,
+It's also above 20!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
