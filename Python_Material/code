@@ -1,1 +1,20 @@
+#Learned Python 
+
+#Python Variables
+
+# creating a variable and assigning it a value
+x = 8
+y = "brothers"
+print(x)
+print(y)
+
+# Legal variable names:
+myvar = "John"
+_myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+Myvar = "John"
+MyVar = "John"
 
