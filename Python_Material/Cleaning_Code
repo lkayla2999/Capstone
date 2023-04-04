@@ -1,0 +1,35 @@
+#Dataset1                                                                                                                                               #section 5.3
+#Step1
+#How to clean data in python (skipping rows) in entire excel file
+import pandas as pd
+col_names = ["Animal ID", "Name", "Species", "Primary Breed", "Age Group", "Location", "Intake Date" , 
+             "Intake Type", "OutCome Date", "OutCome Type", "Days in Custody", "Days on Site", "Days Available"] 
+Lengthofstay_df1 = pd.read_excel(r'/Users/lkayl/OneDrive/Desktop/CapstoneWork/xlsx/Lenghtofstay1.xlsx', names=col_names, skiprows=[5,20,22,23,25,26,27,28,29,32,34,40,
+                                                                                                                                   43,66,90,103,105,114,128,129,135,
+                                                                                                                                   136,140,141,142,149,150,151,152,
+                                                                                                                                   153,156,162, 168, 172,173,174,175,
+                                                                                                                                   176,177,178,179,180,183,185,191,193,194])
+Lengthofstay_df1
+Lengthofstay_df1.to_excel('Data1.xlsx', index=False) #step2 saving an excel file 
+
+
+
+
+# Viewing the newly created .excel file
+import pandas as pd
+
+df1 = pd.read_excel('Data1.xlsx')
+df1
+
+
+
+
+
+#Replacing Null                                                                                                                                       #Section 5.3
+import pandas as pd
+
+df1 = pd.read_excel('Data1.xlsx')
+#replacing nulls '-' with 'N/A'
+df1= df.replace(to_replace={'-':'N/A'})
+df['Days in Custody'].fillna(0, inplace=True) #Replace nulls in only 1 column
+df1
