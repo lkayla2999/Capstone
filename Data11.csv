@@ -1,0 +1,149 @@
+Animal ID,Name,Primary Breed,Age Group,Location,Intake Date,Intake Type,OutCome Date,OutCome Type,Days in Custody,Days on Site,Days Available
+Animal ID,Name,Primary Breed,Age Group,Location,Intake Date,Intake Type,OutCome Date,OutCome Type,Days in Custody,Days on Site,Days Available
+GPG-A-224,Nena,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,9/26/2019,Owner/Guardian Surrender,9/30/2019,Adoption,5,4,5
+GPG-A-224-2,Nena,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/25/2019,Return,11/27/2019,Adoption,2,0,2
+GPG-A-340,Gala,Collie,Adult Dog (6 months+),Transfer Out,12/5/2019,Stray,12/5/2019,Transfer Out,1,1,0
+GPG-A-560,Mr. Rogers,"Terrier, American Pit Bull",Adult Dog (6 months+),Adopted,2/27/2020,Transfer In,4/4/2020,Adoption,37,6,37
+GPG-A-1153,Spot,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/17/2020,Transfer In,1/4/2021,Adoption,49,2,49
+GPG-A-1153-2,Spot,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,1/5/2021,Return,1/29/2021,Adoption,24,11,24
+GPG-A-1153-3,Spot,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,1/30/2021,Return,5/1/2021,Adoption,91,7,88
+GPG-A-1469,Ciao,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,2/11/2021,Owner/Guardian Surrender,4/8/2021,Adoption,57,3,57
+GPG-A-1566-2,Checo,"Bulldog, American",Adult Dog (6 months+),Adopted,3/30/2021,Owner/Guardian Surrender,4/2/2021,Adoption,3,3,3
+GPG-A-2440,Barley,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,10/14/2021,Owner/Guardian Surrender,2/3/2023,Adoption,478,77,478
+GPG-A-2489,Jack,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,10/26/2021,Transfer In,2/24/2022,Adoption,122,26,122
+GPG-A-1153-4,Spot,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/18/2021,Owner/Guardian Surrender,2/21/2022,Adoption,95,62,43
+GPG-A-2947,Avery,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/1/2022,Transfer In,N/A,N/A,393,32,393
+GPG-A-2961,Cabbage,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,3/3/2022,Transfer In,4/19/2022,Adoption,48,29,48
+GPG-A-1153-5,Spot,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/8/2022,Owner/Guardian Surrender,N/A,N/A,386,64,386
+GPG-A-2971,Titon,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,3/10/2022,Transfer In,5/3/2022,Adoption,55,29,55
+GPG-A-3022,Vista,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,3/22/2022,Transfer In,7/25/2022,Adoption,126,11,123
+GPG-A-2489-2,Jack,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,3/31/2022,Owner/Guardian Surrender,5/11/2022,Adoption,42,14,42
+GPG-A-1566-3,Checo,"Bulldog, American",Adult Dog (6 months+),N/A,4/29/2022,Owner/Guardian Surrender,N/A,N/A,334,91,326
+GPG-A-2489-3,Jack,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,5/12/2022,Return,8/5/2022,Adoption,85,14,85
+GPG-A-3443,Choc,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,6/16/2022,Transfer In,N/A,N/A,286,30,286
+GPG-A-3451,Dyson,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 12",6/21/2022,Transfer In,N/A,N/A,281,43,281
+GPG-A-3524,Tico,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,6/29/2022,Owner/Guardian Surrender,9/11/2022,Adoption,74,2,74
+GPG-A-3680,Poncho,"Retriever, Labrador",Adult Dog (6 months+),N/A,7/28/2022,Owner/Guardian Surrender,N/A,N/A,244,4,15
+GPG-A-2961-2,Cabbage,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,7/30/2022,Owner/Guardian Surrender,1/19/2023,Adoption,174,18,140
+GPG-A-3697,Uno,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,8/2/2022,Stray,N/A,N/A,239,1,239
+GPG-A-2971-2,Titon,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,8/4/2022,Transfer In,N/A,N/A,237,17,223
+GPG-A-3745,Dexter,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,8/16/2022,Owner/Guardian Surrender,11/16/2022,Adoption,92,27,91
+GPG-A-3780,Gail,Hound,Adult Dog (6 months+),N/A,8/18/2022,Transfer In,N/A,N/A,223,28,173
+GPG-A-1469-2,Ciao,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,8/18/2022,Owner/Guardian Surrender,N/A,N/A,223,10,223
+GPG-A-3853,Fall,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,9/8/2022,Transfer In,N/A,N/A,202,4,202
+GPG-A-2489-4,Jack,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,9/20/2022,Owner/Guardian Surrender,N/A,N/A,190,39,190
+GPG-A-3903,Mya,Affenpinscher,Adult Dog (6 months+),N/A,9/27/2022,Owner/Guardian Surrender,N/A,N/A,183,25,183
+GPG-A-3928,Sonia,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,10/3/2022,Transfer In,N/A,N/A,177,33,177
+GPG-A-3939,Queen Bee,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,10/5/2022,Owner/Guardian Surrender,N/A,N/A,175,63,128
+GPG-A-3946,Broderick,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,10/11/2022,Transfer In,N/A,N/A,169,33,169
+GPG-A-3978,Vash,"Shepherd, German",Adult Dog (6 months+),N/A,10/15/2022,Stray,N/A,N/A,165,41,156
+GPG-A-3989,Drago,Cattle Dog,Adult Dog (6 months+),N/A,10/19/2022,Stray,N/A,N/A,161,61,153
+GPG-A-3991,Bennett,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,10/19/2022,Transfer In,N/A,N/A,161,37,160
+GPG-A-3992,Chipster aka Chip,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,10/19/2022,Transfer In,12/29/2022,Adoption,71,43,67
+GPG-A-3022-2,Vista,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,10/24/2022,Owner/Guardian Surrender,N/A,N/A,156,0,156
+GPG-A-4021,Mavi,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,10/26/2022,Stray,N/A,N/A,154,25,146
+GPG-A-4048,Ducky,Shepherd,Adult Dog (6 months+),N/A,11/3/2022,Owner/Guardian Surrender,N/A,N/A,146,42,146
+GPG-A-4108,Rousso,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/15/2022,Transfer In,2/15/2023,Adoption,93,66,93
+GPG-A-4126,Collard Greens,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,11/19/2022,Stray,N/A,N/A,130,26,126
+GPG-A-4146,Dorthea,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/28/2022,Transfer In,2/3/2023,Adoption,68,8,28
+GPG-A-4157,Reid,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,11/29/2022,Stray,1/20/2023,Adoption,53,44,52
+GPG-A-4165,Abra,Hound,Adult Dog (6 months+),N/A,12/6/2022,Transfer In,N/A,N/A,113,4,110
+GPG-A-4166,Cadabra,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/6/2022,Transfer In,N/A,N/A,113,3,113
+GPG-A-3745-2,Dexter,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/6/2022,Owner/Guardian Surrender,N/A,N/A,113,47,113
+GPG-A-4171,Knight,"Retriever, Labrador",Adult Dog (6 months+),N/A,12/6/2022,Owner/Guardian Surrender,N/A,N/A,113,0,113
+GPG-A-4188,Jovie,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 11",12/9/2022,Stray,N/A,N/A,110,87,104
+GPG-A-4193,Kathleen,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/13/2022,Stray,N/A,N/A,106,0,106
+GPG-A-4195,Merry,"Retriever, Black Labrador",Adult Dog (6 months+),N/A,12/14/2022,Stray,N/A,N/A,105,2,96
+GPG-A-4226,Kringle,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/19/2022,Stray,N/A,N/A,100,1,100
+GPG-A-4228,Kimi,"Terrier, American Staffordshire",Adult Dog (6 months+),N/A,12/19/2022,Stray,N/A,N/A,100,2,98
+GPG-A-4238,Ryder,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 4",12/21/2022,Transfer In,N/A,N/A,98,69,82
+GPG-A-4243,Juliana,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/21/2022,Transfer In,N/A,N/A,98,0,60
+GPG-A-4245,Lyja,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,12/21/2022,Transfer In,N/A,N/A,98,0,54
+GPG-A-4246,Brain,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,12/21/2022,Transfer In,N/A,N/A,98,0,55
+GPG-A-4247,Grimm,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,12/21/2022,Transfer In,N/A,N/A,98,0,55
+GPG-A-4250,Bonnie,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/21/2022,Owner/Guardian Surrender,N/A,N/A,98,6,97
+GPG-A-4259,Mac,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/22/2022,Stray,N/A,N/A,97,9,90
+GPG-A-4275,Charlie,Shepherd,Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 9",12/23/2022,Stray,N/A,N/A,96,32,89
+GPG-A-4276,Ponderosa,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/23/2022,Stray,N/A,N/A,96,19,89
+GPG-A-4277,Deandra,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/23/2022,Stray,N/A,N/A,96,2,96
+GPG-A-4282,Raymond,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/23/2022,Stray,N/A,N/A,96,27,92
+GPG-A-4284,Duncan,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,12/26/2022,Stray,N/A,N/A,93,3,87
+GPG-A-4335,Misty,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,1/5/2023,Transfer In,N/A,N/A,83,6,83
+GPG-A-4344,Abbott,"Terrier, American Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 3",1/5/2023,Stray,N/A,N/A,83,32,73
+GPG-A-4345,Costello,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/5/2023,Stray,N/A,N/A,83,8,44
+GPG-A-4359,Bon Bon Girl,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,1/6/2023,Stray,N/A,N/A,82,56,75
+GPG-A-4367,Amina,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/10/2023,Stray,N/A,N/A,78,7,71
+GPG-A-4368,Juke,"Terrier, American Staffordshire",Adult Dog (6 months+),N/A,1/11/2023,Stray,N/A,N/A,77,18,48
+GPG-A-4369,Sophia,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,1/11/2023,Stray,N/A,N/A,77,9,76
+GPG-A-4379,Lovebird,Rottweiler,Adult Dog (6 months+),Adopted,1/14/2023,Owner/Guardian Surrender,3/15/2023,Adoption,61,6,19
+GPG-A-4383,Stork,Rottweiler,Puppy (6 weeks-5 months),N/A,1/14/2023,Owner/Guardian Surrender,N/A,N/A,74,3,72
+GPG-A-4386,Mojo,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/17/2023,Owner/Guardian Surrender,N/A,N/A,71,46,71
+GPG-A-4404,Disco Stu,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/19/2023,Transfer In,N/A,N/A,69,19,50
+GPG-A-4434,Ralphie,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,1/24/2023,Stray,2/19/2023,Adoption,26,26,13
+GPG-A-4435,Bae Bae,"Terrier, American Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 10",1/24/2023,Owner/Guardian Surrender,N/A,N/A,64,56,64
+GPG-A-4437,Mia,"Retriever, Black Labrador",Adult Dog (6 months+),N/A,1/25/2023,Stray,N/A,N/A,63,30,50
+GPG-A-4440,Amaretto,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 6",1/26/2023,Transfer In,N/A,N/A,62,2,62
+GPG-A-4535,Birdie,Beagle,Puppy (6 weeks-5 months),N/A,1/30/2023,Born In Care,N/A,N/A,58,0,22
+GPG-A-4446,Pablo,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 6",1/30/2023,Stray,N/A,N/A,58,43,50
+GPG-A-4447,Joey,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/31/2023,Transfer In,N/A,N/A,57,7,57
+GPG-A-4449,Lamar,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,1/31/2023,Stray,N/A,N/A,57,16,50
+GPG-A-4457,Inky,"Terrier, Pit Bull",Adult Dog (6 months+),"Suites, Cuddle Room 2",2/2/2023,Stray,N/A,N/A,55,52,4
+GPG-A-4467,Kia,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,2/3/2023,Owner/Guardian Surrender,N/A,N/A,54,1,6
+GPG-A-4146-2,Dorthea,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,2/5/2023,Return,N/A,N/A,52,0,52
+GPG-A-4479,Portia,Shepherd,Adult Dog (6 months+),N/A,2/8/2023,Stray,N/A,N/A,49,1,1
+GPG-A-224-3,Nena,"Terrier, Pit Bull",Adult Dog (6 months+),Adopted,2/10/2023,Transfer In,2/20/2023,Adoption,11,1,11
+GPG-A-4489,Lucia,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,2/10/2023,Owner/Guardian Surrender,N/A,N/A,47,1,37
+GPG-A-4491,Cam,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,2/10/2023,Owner/Guardian Surrender,N/A,N/A,47,1,44
+GPG-A-4493,Paula,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,2/10/2023,Owner/Guardian Surrender,N/A,N/A,47,2,35
+GPG-A-4495,Old Man Jenkins,"Pyrenees, Great",Adult Dog (6 months+),N/A,2/10/2023,Stray,N/A,N/A,47,4,43
+GPG-A-4514,Maddie,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4510,Lightning,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,0
+GPG-A-4511,Tow,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4512,Sarge,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4513,Fillmore,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4515,Cruz,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4516,Holley,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4517,Lizzie,Shepherd,Puppy (6 weeks-5 months),N/A,2/14/2023,Born In Care,N/A,N/A,43,0,2
+GPG-A-4507,Brandy,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,2/15/2023,Stray,N/A,N/A,42,22,33
+GPG-A-4519,Sasha,"Bulldog, American",Adult Dog (6 months+),"Suites, Cuddle Room 1",2/17/2023,Owner/Guardian Surrender,N/A,N/A,40,23,40
+GPG-A-4108-2,Rousso,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,2/19/2023,Return,N/A,N/A,38,0,38
+GPG-A-4434-2,Ralphie,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,2/21/2023,Return,N/A,N/A,36,14,36
+GPG-A-4532,Billy,Mastiff,Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 1",2/22/2023,Owner/Guardian Surrender,N/A,N/A,35,13,35
+GPG-A-4536,Adaline,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 2",2/24/2023,Stray,N/A,N/A,33,33,9
+GPG-A-4540,Hope Joy,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,2/25/2023,Stray,N/A,N/A,32,11,2
+GPG-A-560-2,Mr. Rogers,"Terrier, American Pit Bull",Adult Dog (6 months+),N/A,2/28/2023,Owner/Guardian Surrender,N/A,N/A,29,0,29
+GPG-A-4548,Thump,Great Dane,Adult Dog (6 months+),N/A,3/2/2023,Stray,N/A,N/A,27,9,19
+GPG-A-4546,Remy,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 14",3/2/2023,Transfer In,N/A,N/A,27,18,27
+GPG-A-4549,Toffee,"Poodle, Standard",Adult Dog (6 months+),Adopted,3/7/2023,Stray,3/14/2023,Adoption,8,3,5
+GPG-A-4550,Samoa,"Poodle, Standard",Adult Dog (6 months+),N/A,3/7/2023,Stray,N/A,N/A,22,16,15
+GPG-A-4551,Theodore,Great Dane,Adult Dog (6 months+),N/A,3/8/2023,Owner/Guardian Surrender,N/A,N/A,21,9,5
+GPG-A-4554,Eloise,"Hound, Plott",Adult Dog (6 months+),N/A,3/9/2023,Stray,N/A,N/A,20,12,19
+GPG-A-4558,Chaco,"Terrier, Pit Bull",Adult Dog (6 months+),"Intake Holding Room 1, Kennel 1",3/9/2023,Transfer In,N/A,N/A,20,4,20
+GPG-A-4560,August,"Retriever, Labrador",Adult Dog (6 months+),N/A,3/9/2023,Transfer In,N/A,N/A,20,9,20
+GPG-A-4561,Pansy,"Retriever, Labrador",Adult Dog (6 months+),Adopted,3/9/2023,Transfer In,3/17/2023,Adoption,8,8,8
+GPG-A-4562,Jane,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/9/2023,Transfer In,N/A,N/A,20,5,20
+GPG-A-4563,Miller,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/9/2023,Transfer In,N/A,N/A,20,18,0
+GPG-A-4571,Ameren,"Shepherd, German",Adult Dog (6 months+),N/A,3/13/2023,Stray,N/A,N/A,16,5,12
+GPG-A-4572,Mouse,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/13/2023,Transfer In,N/A,N/A,16,1,16
+GPG-A-4573,Nissa,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 13",3/14/2023,Owner/Guardian Surrender,N/A,N/A,15,15,15
+GPG-A-4574,Nala,"Terrier, Pit Bull",Adult Dog (6 months+),"Adoption Floor (Dog), Kennel 13",3/14/2023,Owner/Guardian Surrender,N/A,N/A,15,15,15
+GPG-A-4579,Irish,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,3/16/2023,Stray,N/A,N/A,13,1,12
+GPG-A-4580,Clover,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,3/16/2023,Stray,N/A,N/A,13,1,12
+GPG-A-4581,Guinness,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,3/16/2023,Stray,N/A,N/A,13,1,12
+GPG-A-4584,Precious,"Terrier, Jack Russell",Adult Dog (6 months+),N/A,3/16/2023,Owner/Guardian Surrender,N/A,N/A,13,1,13
+GPG-A-4586,Choppo,"Terrier, Pit Bull",Adult Dog (6 months+),"Suites, Training Room",3/17/2023,Owner/Guardian Surrender,N/A,N/A,12,12,0
+GPG-A-4592,Dirt Bike,"Terrier, Pit Bull",Puppy Unweaned (0-6 weeks),N/A,3/18/2023,Stray,N/A,N/A,11,1,0
+GPG-A-4605,Adrian,"Shepherd, German",Adult Dog (6 months+),N/A,3/20/2023,Stray,N/A,N/A,9,4,2
+GPG-A-4606,Rocky,"Terrier, American Pit Bull",Adult Dog (6 months+),"Intake Holding Room 1, Kennel 4",3/20/2023,Stray,N/A,N/A,9,9,2
+GPG-A-4609,Finn,"Pyrenees, Great",Puppy (6 weeks-5 months),N/A,3/21/2023,Transfer In,N/A,N/A,8,1,5
+GPG-A-4611,Fagen,"Pyrenees, Great",Puppy (6 weeks-5 months),N/A,3/21/2023,Transfer In,N/A,N/A,8,1,5
+GPG-A-4613,Cadbury,"Terrier, Pit Bull",Adult Dog (6 months+),"GPG Shelter ESTL, Meet & Greet/Adoption Room",3/21/2023,Stray,N/A,N/A,8,8,0
+GPG-A-4635,Tonka,"Terrier, Pit Bull",Adult Dog (6 months+),"Intake Holding Room 1, Kennel 3",3/22/2023,Stray,N/A,N/A,7,7,0
+GPG-A-4631,Big Bertha,Akita,Adult Dog (6 months+),N/A,3/22/2023,Stray,N/A,N/A,7,5,3
+GPG-A-4637,Charlie Daniels,Saint Bernard,Adult Dog (6 months+),N/A,3/23/2023,Stray,N/A,N/A,6,2,0
+GPG-A-4638,Zenon,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,3/24/2023,Owner/Guardian Surrender,N/A,N/A,5,1,5
+GPG-A-4639,Astrid,"Terrier, Pit Bull",Puppy (6 weeks-5 months),N/A,3/24/2023,Owner/Guardian Surrender,N/A,N/A,5,3,5
+GPG-A-3524-2,Tico,"Terrier, Pit Bull",Adult Dog (6 months+),N/A,3/27/2023,Owner/Guardian Surrender,N/A,N/A,2,0,2
+GPG-A-4653,Blix,"Terrier, American Pit Bull",Adult Dog (6 months+),"Intake Holding Room 1, Kennel 2",3/27/2023,Owner/Guardian Surrender,N/A,N/A,2,2,2
+GPG-A-4654,Llama,"Terrier, American Pit Bull",Puppy (6 weeks-5 months),N/A,3/27/2023,Owner/Guardian Surrender,N/A,N/A,2,2,2
+GPG-A-4656,Ohana aka Rudolph,Shiba Inu,Adult Dog (6 months+),"Intake Holding Room 1, Kennel 5",3/28/2023,Transfer In,N/A,N/A,1,0,0
